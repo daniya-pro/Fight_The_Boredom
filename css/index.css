@@ -1,0 +1,24 @@
+.big-strip{
+ 
+    width: 100%;  
+    height: 60px;
+    color:white;
+}
+.small-strip{      color:red;}
+.greybg{background-color:white;
+border:2px solid red;margin-bottom: 5px;
+}
+.redbg{background-color: red;}
+body,html{
+margin: 0px !important;
+padding: 0px !important;
+
+}
+.verdana{    font-family:verdana;
+}
+.t-center{
+    font-size:x-large;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;    
+}
