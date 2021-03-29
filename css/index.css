@@ -31,16 +31,35 @@ button:focus {
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;
-  }
+width: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+   
   
+}
+div.centered 
+{
+    text-align: center;
+}
+
+div.centered table 
+{
+    margin: 0 auto; 
+    text-align: left;
+}
+
+
   td, th {
-    border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
   }
-  
+     th{ border: 1px solid black;
+     }
   td {
+    border: 1px solid white;
     background-color: black;
     color: white;
   }
