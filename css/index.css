@@ -22,3 +22,28 @@ padding: 0px !important;
     vertical-align: middle;
     line-height: 60px;    
 }
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  td {
+    background-color: black;
+    color: white;
+  }
+td,th{    text-align: center;
+}
+ 
