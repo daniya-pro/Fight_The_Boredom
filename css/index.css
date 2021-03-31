@@ -30,6 +30,9 @@ textarea:focus,
 button:focus {
     outline: none;
 }
+
+
+
 table {
     font-family: arial, sans-serif;
     min-width: 50%;
