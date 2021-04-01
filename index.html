@@ -15,35 +15,41 @@
     <div class="t-center redbg big-strip verdana"> Fight The Boredom </div>
   <br/><br/>
     <div id="info" class="center">
+      <div>
+        <span>Select Number Of Participant ( Max Value Is 5 And Default Value Is 1 ) : </span>
+        <br>
+        <br>
       <div id='select_box' class="select_box">
       <select id="participants" class="participants">
-        <option value="" disabled selected> Select Number Of People </option>
-
-        <option class="a1" id="a1" value="1">1</option>
+        <option class="a1" id="a1" value="1" selected>1</option>
         <option class="b2" id="b2" value="2">2</option>
         <option class="c3" id="c3" value="3">3</option>
         <option class="c4" id="c4" value="4">4</option>
         <option class="c5" id="c5" value="5">5</option>
         
     
-    </select></div>
+    </select></div></div>
    
     <br>  
     <br>  
-
-        <table id='InfoBox' class="box">
+    <div class="overlay">
+      <div class="loader" id="loader" style="display:block;">      <p>Please Wait..</p>
+</div>
+        <table id='InfoBox' class="box" style="display:none;">
             
           <tr style="line-height: 8pc;">
-           <th>Confidence</th>
-           <th>Confidence</th>
+           <th>Activity</th>
+           <th id="LinkParticipants">Link</th>
 
      
          </tr>
          <tr style="line-height: 8pc;">
-                 <td id="genderName">Maria Anders</td>
-           <td id="probabilityNum2">Maria Anders</td>
+                 <td id="ActivityName">Maria Anders</td>
+           <td id="LinkNameparent"><a id="LinkName"></a></td>
+           <td id="ParticipantsNum" style='display:none;'>hh</td>
          </tr>
-       </table></div>
+       </table>    </div>
+</div>
        <script src="./JS/index.js"></script>
 </body>
 </html>
